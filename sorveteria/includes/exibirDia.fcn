@@ -1,0 +1,7 @@
+<?php
+    include 'dataExtenso.fcn';
+    $dia = date("d",time( ));
+    $mes = date("m",time( ));
+    $ano = date("Y",time( ));
+    $data = dataExtenso($dia, $mes, $ano);
+?>

@@ -1,0 +1,8 @@
+<?php
+    function dataExtenso($dia, $mes, $ano)
+    {
+        $mesExtenso = array("janeiro","fevereiro","março","abril","maio", "junho","julho","agosto","setembro", "outubro", "novembro","dezembro");
+        $diaExtenso = $dia ." de ".$mesExtenso[($mes-1)]." de ".$ano;
+        return $diaExtenso;
+    }
+?>
